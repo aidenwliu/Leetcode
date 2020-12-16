@@ -1,4 +1,5 @@
-//Sol_1. Recursion
+/* Sol_1. 
+   Recursion */
 public class Solution {
     public int fib(int N) {
         if (N <= 1) {
@@ -7,10 +8,11 @@ public class Solution {
         return fib(N-1) + fib(N-2);
     }
 }
-Time complexity: O(2^N).
-Space complexity: O(N).
-------------------------------------------------------------------------------------------------------------------------------------------------------
-Sol_2. Iteration
+//Time complexity: O(2^N).
+//Space complexity: O(N).
+
+/* Sol_2. 
+   Iteration */
 class Solution {
     public int fib(int n) {
         if (n <= 1) {
@@ -30,7 +32,7 @@ class Solution {
         return cache[n];
     }
 }
-Time complexity: O(N).
-Space complexity: O(N).
-------------------------------------------------------------------------------------------------------------------------------------------------------
-Iteration is better because it uses memorization to reduce the time complexity.
+//Time complexity: O(N).
+//Space complexity: O(N).
+
+//Iteration is better because it uses memorization to reduce the time complexity.
