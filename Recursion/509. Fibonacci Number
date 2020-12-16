@@ -9,7 +9,7 @@ public class Solution {
 }
 Time complexity: O(2^N).
 Space complexity: O(N).
-
+------------------------------------------------------------------------------------------------------------------------------------------------------
 Sol_2. Iteration
 class Solution {
     public int fib(int n) {
@@ -32,3 +32,5 @@ class Solution {
 }
 Time complexity: O(N).
 Space complexity: O(N).
+------------------------------------------------------------------------------------------------------------------------------------------------------
+Iteration is better because it uses memorization to reduce the time complexity.
