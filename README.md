@@ -3,4 +3,10 @@ Aiden's leetcode journey (or journies). All taken in Java.
 
 In progress...
 
-Topic 1. Recursion
+Recursion
+DFS
+BFS
+Dynamic Programming
+Tree
+HashMap
+Graph
