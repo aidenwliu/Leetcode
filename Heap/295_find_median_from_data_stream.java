@@ -1,4 +1,4 @@
-class MedianFinder {
+class MedianFinder {//Two heaps with O(logn) time complexity.
     PriorityQueue<Integer> minHeap = new PriorityQueue<>();
     PriorityQueue<Integer> maxHeap = new PriorityQueue<>();
     /** initialize your data structure here. */
